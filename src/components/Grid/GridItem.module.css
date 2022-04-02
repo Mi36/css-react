@@ -11,6 +11,7 @@
 }
 
 .card:hover {
+  /* here */
   animation-name: flash;
   animation-duration: 1s;
   border: 1px solid rgba(168, 168, 168, 0.2);
@@ -40,6 +41,8 @@
 }
 
 .flash {
+  /* here */
+  /* copird form here https://github.com/animate-css/animate.css */
   animation-name: flash;
 }
 
