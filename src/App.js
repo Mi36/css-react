@@ -6,9 +6,6 @@ import Grid from "./components/Grid/Grid";
 import Rocket from "./components/Rocket/Rocket";
 import Smoke from "./components/Rocket/Smoke";
 import Title from "./components/Title/Title";
-import factsList from "./data/NASA_facts.json";
-// import Rocket from "./Rocket/Rocket";
-// import Smoke from "./Rocket/Smoke";
 
 // Data
 import facts from "./data/NASA_facts.json";

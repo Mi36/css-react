@@ -2,6 +2,8 @@ import React from "react";
 import GridItem from "./GridItem";
 
 import styles from "./Grid.module.css";
+//import mediaStyles from "./Media.module.css";
+//import cx from "classnames";
 
 export default class App extends React.Component {
   updateClicked(id) {
@@ -18,7 +20,11 @@ export default class App extends React.Component {
     ));
   }
   render() {
-    console.log("ssss", this.props.facts);
-    return <section className={styles.grid}>{this.renderFacts()}</section>;
+    return (
+      <section className={styles.grid}>{this.renderFacts()}</section>
+      // <section className={cx(styles.grid, mediaStyles.grid)}>
+      //   {this.renderFacts()}
+      // </section>
+    );
   }
 }
