@@ -34,8 +34,8 @@ class App extends Component {
           facts={this.state.facts}
           updateClicked={this.updateClicked.bind(this)}
         />
-        {/* <Rocket />
-        <Smoke /> */}
+        <Rocket />
+        <Smoke />
       </div>
     );
   }
